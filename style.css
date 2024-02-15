@@ -162,6 +162,11 @@ a {
     align-items: center;
     justify-content: center;
 }
+@media only screen and (max-width: 600px) {
+    .pop-up {
+      width: 350px;
+    }
+  }
 .pop-up .title,
 .pop-up .pop-up-score,
 .pop-up .restart-question,
